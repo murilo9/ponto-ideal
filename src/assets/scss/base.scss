@@ -1,0 +1,11 @@
+$corFontePrincipal: #977D49;
+$familyFontePrincipal: 'Bree Serif', 'serif';
+
+body{
+    font-family: $familyFontePrincipal;
+    background-image: url(../imgs/caixas-pretas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}

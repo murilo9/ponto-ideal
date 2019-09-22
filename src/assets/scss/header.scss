@@ -1,0 +1,14 @@
+#header{
+    border-bottom: 1px solid gray;
+    padding: 0.5em;
+    background: #000;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        li{
+            display: inline-block;
+            margin-right: 1em;
+            font-size: 14pt;
+        }
+    }
+}

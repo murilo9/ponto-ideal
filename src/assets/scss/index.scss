@@ -1,7 +1,5 @@
-$corFontePrincipal: #977D49;
-$familyFontePrincipal: 'Bree Serif', 'serif';
 
-body{
-    font-family: $familyFontePrincipal;
-    color: white;
-}
+@import 'reset';
+@import 'base';
+@import 'header';
+@import 'nav';
