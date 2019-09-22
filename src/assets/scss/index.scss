@@ -1,0 +1,12 @@
+$corFontePrincipal: #977D49;
+$familyFontePrincipal: 'Bree Serif', 'serif';
+
+body{
+    font-family: $familyFontePrincipal;
+    background: #111;
+    color: white;
+}
+h1{
+    color: $corFontePrincipal;
+    font-weight: normal;
+}

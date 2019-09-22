@@ -1,0 +1,1 @@
+import './assets'   //Import dos assets
