@@ -26,14 +26,20 @@ module.exports = {
         })
     ],
     module: {
-        rules: [{
-            test: /\.s?[ac]ss$/,
-            use: [
-                MiniCssExtractPlugin.loader,
-                'css-loader',
-                'sass-loader'
-            ]
-        }]
+        rules: [
+            {
+                test: /\.s?[ac]ss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: ['file-loader']
+            }
+        ]
     },
     devServer: {
         contentBase: './public',
