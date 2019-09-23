@@ -1,4 +1,4 @@
-$corFontePrincipal: #977D49;
+$corFonteMarrom: rgb(179, 147, 85);
 $familyFontePrincipal: 'Bree Serif', 'serif';
 
 body{
@@ -8,4 +8,8 @@ body{
     background-size: cover;
     height: 100vh;
     color: white;
+}
+
+main{
+    margin: 0 5%;   
 }

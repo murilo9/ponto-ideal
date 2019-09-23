@@ -1,0 +1,28 @@
+$corFonteMarrom: rgb(179, 147, 85);
+$familyFontePrincipal: 'Bree Serif', 'serif';
+
+article{
+    display: flex;
+    .article-image{
+        width: 40%;
+        height: 400px;
+        display: inline-block;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
+    section{
+        display: inline-block;
+        width: 50%;
+        padding-left: 4em;
+        h1{
+            color: $corFonteMarrom;
+            font-family: $familyFontePrincipal;
+            font-weight: normal;
+        }
+        p{
+            font-size: 14pt;
+        }
+    }
+}
