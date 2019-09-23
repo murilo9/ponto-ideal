@@ -1,15 +1,19 @@
-$corFonteMarrom: rgb(179, 147, 85);
+$corFonteMarrom: rgb(180, 128, 61);
 $familyFontePrincipal: 'Bree Serif', 'serif';
 
 body{
     font-family: $familyFontePrincipal;
-    background-image: url(../imgs/caixas-pretas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background: black;
     color: white;
 }
 
 main{
-    margin: 0 5%;   
+    margin: 4em 5%;   
+}
+
+.landing-wrapper{
+    background-image: url(../imgs/caixas-pretas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }

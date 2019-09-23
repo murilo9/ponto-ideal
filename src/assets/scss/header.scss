@@ -1,14 +1,16 @@
 #header{
     border-bottom: 1px solid gray;
-    padding: 0.5em;
+    padding: 8px 16px;
     background: #000;
+    display: flex;
+    justify-content: space-between;
     ul{
-        display: flex;
+        display: inline-flex;
         justify-content: flex-end;
         li{
             display: inline-block;
-            margin-right: 1em;
-            font-size: 14pt;
+            margin-left: 1em;
+            font-size: 12pt;
         }
     }
 }

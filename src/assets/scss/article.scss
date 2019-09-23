@@ -1,11 +1,12 @@
-$corFonteMarrom: rgb(179, 147, 85);
+$corFonteMarrom: rgb(180, 128, 61);
 $familyFontePrincipal: 'Bree Serif', 'serif';
 
 article{
     display: flex;
+    margin-bottom: 4em;
     .article-image{
         width: 40%;
-        height: 400px;
+        height: 340px;
         display: inline-block;
         overflow: hidden;
         img{
@@ -15,7 +16,10 @@ article{
     section{
         display: inline-block;
         width: 50%;
-        padding-left: 4em;
+        height: 340px;
+        padding-left: 3em;
+        margin-left: 3em;
+        border-left: 1px solid white;
         h1{
             color: $corFonteMarrom;
             font-family: $familyFontePrincipal;
