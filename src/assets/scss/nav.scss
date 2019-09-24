@@ -67,5 +67,11 @@ $corFonteMarrom: rgb(180, 128, 61);
             color: $corFonteMarrom;
             letter-spacing: 2px;
         }
+        .info{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 3em 25%;
+            font-size: 16pt;
+        }
     }
 }
