@@ -1,32 +1,94 @@
 $corFonteMarrom: rgb(180, 128, 61);
+$corFonteOuro: gold;
+$corFonteMarromEscuro: rgb(122, 82, 29);
 $familyFontePrincipal: 'Bree Serif', 'serif';
 
 article{
+    
     display: flex;
-    margin-bottom: 4em;
-    .article-image{
-        width: 40%;
-        height: 340px;
-        display: inline-block;
-        overflow: hidden;
-        img{
-            width: 100%;
+    margin-bottom: 2em;
+    h1{
+        color: $corFonteMarrom;
+        font-family: $familyFontePrincipal;
+        font-weight: normal;
+    }
+    &.article-1{
+        .article-image{
+            width: 40%;
+            height: 340px;
+            display: inline-block;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        section{
+            display: inline-block;
+            width: 50%;
+            height: 340px;
+            padding-left: 3em;
+            margin-left: 3em;
+            border-left: 1px solid white;
+            p{
+                font-size: 14pt;
+            }
         }
     }
-    section{
-        display: inline-block;
-        width: 50%;
-        height: 340px;
-        padding-left: 3em;
-        margin-left: 3em;
-        border-left: 1px solid white;
+    &.article-2{
+        flex-direction: column;
+        align-items: center;
+        .special{
+            text-align: center;
+            margin: 5em 0;
+        }
         h1{
-            color: $corFonteMarrom;
-            font-family: $familyFontePrincipal;
-            font-weight: normal;
+            font-size: 18pt;
         }
         p{
-            font-size: 14pt;
+            font-size: 13pt;
+            margin-bottom: 1em;
+            &.sub{
+                font-size: 11pt;
+                color: $corFonteOuro;
+            }
+        }
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            .card{
+                display: flex;
+                align-items: flex-start;
+                width: 32%;
+                .card-icon{
+                    padding: 1em;
+                    border-radius: 50%;
+                    color: white;
+                    border: 2px solid $corFonteOuro;
+                    background: $corFonteMarromEscuro;
+                    height: 4em;
+                    width: 4em;
+                    i{
+                        position: relative;
+                        display: inline;
+                        margin: 0;
+                        font-size: 18pt;
+                        color: $corFonteOuro;
+                        &.dolly{
+                            top: 5px;
+                        }
+                        &.glass{
+                            top: 4px;
+                        }
+                        &.shipping{
+                            top: 3px;
+                            right: 1px;
+                        }
+                    }
+                }
+                .card-description{
+                    margin-left: 1.5em;
+                }
+            }
         }
     }
 }
