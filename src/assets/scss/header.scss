@@ -1,9 +1,12 @@
+$corFonteMarrom: rgb(180, 128, 61);
+
 #header{
     border-bottom: 1px solid gray;
     padding: 8px 16px;
     background: #000;
     display: flex;
     justify-content: flex-end;
+    color: $corFonteMarrom;
     ul{
         display: inline-flex;
         justify-content: flex-end;
