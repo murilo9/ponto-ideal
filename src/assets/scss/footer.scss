@@ -1,0 +1,33 @@
+$corFonteMarrom: rgb(180, 128, 61);
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    p{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .footer-hr{
+        padding-top: 3em;
+        border-top: 1px solid white;
+        margin: 0 5%;
+    }
+    .contato{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3em 20%;
+    }
+    #footer-nav{
+        .links{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 25%;
+            font-size: 14pt;
+            li{
+                a:hover{
+                    color: $corFonteMarrom;
+                }
+            }
+        }
+    }
+}
